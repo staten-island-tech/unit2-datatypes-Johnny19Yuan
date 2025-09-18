@@ -1,6 +1,6 @@
-bill= input("What was the bill? ")
+bill = input("What was the bill? ")
 
-service = input("How was the service? ")
+service = input("How was the service? ")#bad, okay, good ,great
 
-
-
+if service == "bad":
+    print 

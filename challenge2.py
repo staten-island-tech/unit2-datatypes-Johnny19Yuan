@@ -1,6 +1,8 @@
 number = input("Enter a number: ")
 
-if 6(number %2):
-    print("even")
+remainder = (int(number) % 2)
+
+if remainder == 0:
+    print("it's even")
 else:
-    print("odd")
+    print("it's odd")

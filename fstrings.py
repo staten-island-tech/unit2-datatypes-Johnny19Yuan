@@ -2,7 +2,7 @@
 #print(f"hello {x}")
 
 
-temp = 150 #input curent temputure
+temp = 67 #input curent temputure
 if temp > 68:
     print('warm')
 elif temp == 68:
