@@ -1,5 +1,5 @@
 bill = input("What was the bill? ")
-service = input("How was the service? ")#bad,okay,good,great
+service = input("How was the service? Was it bad, okay, good, or great: ")#bad,okay,good,great
 if service == "bad":
     print (f"0% tip worth $0")
 elif service == "okay":
@@ -9,4 +9,4 @@ elif service == "good":
 elif service == "great":
     print (f"15% tip worth ${float(bill)*0.15}")
 else:
-    print ("invalid answer")
+    print ("invalid answer please try again.")
