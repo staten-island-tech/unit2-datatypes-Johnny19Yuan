@@ -1,4 +1,4 @@
-bill = input("What was the bill? ")
+bill = input("How much was the bill? ")
 service = input("How was the service? Was it bad, okay, good, or great: ")#bad,okay,good,great
 if service == "bad":
     print (f"0% tip worth $0")
